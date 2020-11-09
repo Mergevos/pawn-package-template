@@ -3,7 +3,7 @@
 [![sampctl](https://img.shields.io/badge/sampctl-{{.RepoEscaped}}-2f2f2f.svg?style=for-the-badge)](https://github.com/{{.User}}/{{.Repo}})
 
 <!--
-Short description of your library, why it's useful, some examples, pictures or
+Short description of your library/gamemode, why it's useful, some examples, pictures or
 videos. Link to your forum release thread too.
 
 Remember: You can use "forumfmt" to convert this readme to forum BBCode!
@@ -28,6 +28,10 @@ Happy Pawning!
 
 ## Installation
 
+<!-- 
+If you're making a new library, just uncomment the section below. 
+-->
+<!--
 Simply install to your project:
 
 ```bash
@@ -39,11 +43,30 @@ Include in your code and begin using the library:
 ```pawn
 #include <{{.Repo}}>
 ```
+-->
+
+<!-- 
+Else, you're making a new gamemode, uncomment this section below.
+-->
+
+
+Firstly, clone the repo:
+```git 
+git clone https://github.com/{{.User}}/{{.Repo}}
+```
+Then, run in just 3 commands:
+
+```bash
+sampctl package ensure
+sampctl package build
+sampctl package run
+```
+
 
 ## Usage
 
 <!--
-Write your code documentation or examples here. If your library is documented in
+Write your code documentation or examples here. If your library or gamemode is documented in
 the source code, direct users there. If not, list your API and describe it well
 in this section. If your library is passive and has no API, simply omit this
 section.
