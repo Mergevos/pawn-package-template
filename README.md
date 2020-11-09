@@ -49,7 +49,7 @@ Include in your code and begin using the library:
 Else, you're making a new gamemode, uncomment this section below.
 -->
 
-
+<!--
 Firstly, clone the repo:
 ```git 
 git clone https://github.com/{{.User}}/{{.Repo}}
@@ -61,7 +61,7 @@ sampctl package ensure
 sampctl package build
 sampctl package run
 ```
-
+-->
 
 ## Usage
 
@@ -76,7 +76,7 @@ section.
 
 <!--
 Depending on whether your package is tested via in-game "demo tests" or
-y_testing unit-tests, you should indicate to readers what to expect below here.
+y_testing unit-tests, you should indicate to readers what to expect below here. 
 -->
 
 To test, simply run the package:
